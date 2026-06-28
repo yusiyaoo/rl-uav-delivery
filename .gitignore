@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model files (too large)
+results/*.pth
+results/*.npz
+
+# Generated figures & report (keep local)
+results/*.png
+results/*.docx
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
